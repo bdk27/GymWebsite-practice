@@ -165,5 +165,81 @@
     margin-bottom: 0.8rem;
 }
 
+/* trainer */
+.trainer{
+    background: #f9f9f9;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.trainer .about{
+    width: 39%;
+}
+.trainer .about h2{
+    color: #212529;
+    font-size: 2.1rem;
+    padding-bottom: 1.8rem;
+}
+.trainer .about p{
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+.trainer .people{
+    width: 57%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.trainer .people .team1{
+    width: 45%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 1.6px 3.6px rgba(0, 0, 0, 0.01),
+    0 4.4px 10px rgba(0, 0, 0, 0.015),
+    0 10.6px 13px 24.1px rgba(0, 0, 0, 0.02),
+    0 35px 80px rgba(0, 0, 0, 0.03);   
+}
+.trainer .people .team1 .img img{
+    width: 100%;
+    object-fit: cover;
+}
+.trainer .people .team1 .name, .trainer .people .team1 .pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.trainer .people .team1 .name{
+    padding: 5px 20px 0 20px;
+}
+.trainer .people .team1 .teamDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.trainer .people .team1 .name h4{
+    color: #212529;
+    font-size: 1.5rem;
+}
+.trainer .people .team1 .name i, .trainer .people .team1 .pro i{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #212529;
+}
+.trainer .people .team1 .pro{
+    padding: 0 20px 5px 20px;
+}
+.trainer .people .team1 .pro p{
+    color: #212529;
+}
+
+
+
 
 
