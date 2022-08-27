@@ -397,7 +397,22 @@
     width: 100%;
 }
 
-
-
+/* footer */
+.footer{
+    border-top: 1px solid #ecf0f1;
+    padding: 5rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    color: #7f8c8d;
+    justify-content: flex-start;
+}
+.footer p i{
+    color: red;
+    padding-right: 5px;
+}
 
 
