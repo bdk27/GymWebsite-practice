@@ -727,7 +727,61 @@
     }
 }
 @media (max-width: 496px){
-    
+    .mid p{
+        margin-bottom: .8rem;
+    }
+    .mid h2{
+        font-size: 1.8rem;
+    }
+    .mid .btn{
+        margin-top: .7rem;
+    }
+    .details{
+        padding: 4rem 1rem;
+    }
+    .details .one{
+        width: 100%;
+    }
+    .details .two{
+        width: 100%;
+    }
+    .trainer{
+        padding: 4rem 1rem;
+    }
+    .trainer .about{
+        width: 100%;
+    }
+    .trainer .people{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .trainer .people .team1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .class{
+        padding: 4rem 1rem;
+    }
+    .class .classMenu .team1{
+        width: 100%;
+    }
+    .contact{
+        padding: 4rem 1rem;
+    }
+    .contact .form{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .contact .map{
+        width: 100%;
+    }
+    .footer{
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
