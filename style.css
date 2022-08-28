@@ -533,7 +533,7 @@
         margin-bottom: 0.6rem;
     }
     .trainer{
-        padding: 6rem;
+        padding: 6rem 7rem;
     }
     .trainer .about h2{
         font-size: 2rem;
@@ -631,7 +631,100 @@
     
 }
 @media (max-width: 768px){
-    
+    .nav h2{
+        font-size: 1.5rem;
+    }
+    .back{
+        background-position: center;
+    }
+
+    .mid p{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .mid h2{
+        font-size: 2.1rem;
+    }
+    .mid .btn{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mid .btn a.simple:hover{
+        color: #ff5733;
+    }
+    .mid .btn a.border{
+        padding: .7rem 1.4rem;
+        margin-top: 7px;
+    }
+    .details{
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .details .one{
+        width: 70%;
+    }
+    .details .one a{
+        font-size: 1rem;
+    }
+    .details .two{
+        padding-left: 0;
+        border-left: 0;
+        border-top: 1px solid #666262;
+        width: 70%;
+        margin-top: 1.7rem;
+        padding-top: 1.7rem;
+    }
+    .trainer{
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .trainer .about{
+        width: 70%;
+        margin-bottom: 1.7rem;
+    }
+    .trainer .people{
+        width: 70%;
+    }
+    .class{
+        padding: 6rem;
+    }
+    .class .classMenu{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .class .classMenu .team1{
+        width: 65%;
+        margin-bottom: 20px;
+    }
+    .contact{
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact .form{
+        width: 70%;
+        margin-bottom: 1.5rem;
+    }
+    .contact .form h2{
+        font-size: 2.5rem;
+    }
+    .contact .map{
+        width: 60%;
+    }
+    .footer{
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media (max-width: 496px){
     
