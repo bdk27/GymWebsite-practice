@@ -457,6 +457,7 @@
         background: rgba(0, 0, 0, 0.8);
         z-index: 100000;
         margin-top: 4.2rem;
+        transition: .5s;
     }
     #item li{
         padding-right: 0;
@@ -479,6 +480,155 @@
         display: initial;
         cursor: pointer;
     }
+    .mid p{
+        font-size: 1.1rem;
+        margin-bottom: 1.2rem;
+    }
+    .mid h2{
+        font-size: 2.5rem;
+    }
+    .mid .btn{
+        margin-top: 1.5rem;
+    }
+    .mid .btn a{
+        font-size: 0.9rem;
+    }
+    .mid .btn a.simple:hover{
+        color: #ff5733;
+    }
+    .mid .btn a.border{
+        padding: .7rem 1.4rem;
+    }
+    .details h3,h6,h5{
+        color: #fff;
+    }
+    .details{
+        padding: 6rem 7rem;
+    }
+    .details .one{
+        width: 50%;
+    }
+    .details .one h3{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .details .one p{
+        font-size: 1.1rem;
+        padding-bottom: 2.2rem;
+    }
+    .details .one a{
+        font-size: .9rem;
+    }
+    .details .two{
+        padding-left: 3.5rem;
+    }
+    .details .two h3{
+        font-size: 2rem;
+    }
+    .details .two h5{
+        font-size: 1rem;
+    }
+    .details .two p{
+        font-size: 1rem;
+        margin-bottom: 0.6rem;
+    }
+    .trainer{
+        padding: 6rem;
+    }
+    .trainer .about h2{
+        font-size: 2rem;
+        padding-bottom: 1.4rem;
+    }
+    .trainer .about p{
+        font-size: 1rem;
+    }
+    .trainer .people .team1{
+        width: 48%;
+    }
+    .trainer .people .team1 .name{
+        padding: 5px 15px 0 15px;
+    }
+    .trainer .people .team1 .name h4{
+        font-size: 1.1rem;
+    }
+    .trainer .people .team1 .name i, .trainer .people .team1 .pro i{
+        font-size: 1.1rem;
+    }
+    .trainer .people .team1 .pro{
+        padding: 0 15px 5px 15px;
+    }
+    .class{
+        padding: 6rem;
+    }
+    .class .paragraph{
+        font-size: 1.1rem;
+        padding-bottom: 4px;
+    }
+    .class .h2{
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+    .class .classMenu .team1 .teamDetails{
+        padding-bottom: 7px;
+    }
+    .class .classMenu .team1 .teamDetails .name{
+        padding: 5px 15px 0 15px;
+    }
+    .class .classMenu .team1 .teamDetails .name .nameDetails h4{
+        font-size: 1.2rem;
+    }
+    .class .classMenu .team1 .teamDetails .name .nameDetails p{
+        font-size: 1rem;
+    }
+    .class .classMenu .team1 .teamDetails .name .nameDetails p span{
+        font-size: 1rem;
+    }
+    .class .classMenu .team1 .teamDetails .name .num h5{
+        font-size: 0.8rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        line-height: 3.2rem;
+    }
+    .class .classMenu .team1 .pro{
+        padding: 15px 15px 30px 15px;
+    }
+    .class .classMenu .team1 .pro p{
+        font-size: 1rem;
+    }
+    .contact{
+        padding: 6rem;
+    }
+    .contact .form h2{
+        font-size: 2rem;
+        padding-bottom: 7px;
+    }
+    .contact .form .submit input, .contact .form .submit textarea{
+        padding: 15px;
+        margin: 10px 0;
+    }
+    .contact .form .submit input::placeholder{
+        font-size: 1rem;
+    }
+    .contact .form .submit textarea::placeholder{
+        font-size: 1rem;
+    }
+    .contact .form .submit a{
+        padding: 13px 0;
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+    .contact .map h2{
+        font-size: 2rem;
+        padding-bottom: 7px;
+    }
+    .contact .map p{
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+    .footer{
+        padding: 6rem;
+    }
+    
 }
 @media (max-width: 768px){
     
