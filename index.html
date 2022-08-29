@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym Website</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="nav">
         <h2>GYmso Fitness</h2>
         <ul id="item">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Classes</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#contact">Contact</a></li>
             <div class="icon">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
                 <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -23,7 +24,7 @@
         <i class="fa-solid fa-bars" id="bar"></i>
     </div>
 
-    <div class="back">
+    <div class="back" id="home">
         <div class="overlay"></div>
     </div>
 
@@ -37,13 +38,13 @@
     </div>
 
     <div class="details">
-        <div class="one">
+        <div class="one" data-aos="fade-up">
             <h3>New to the gymso?</h3>
             <h6>Your membership is up to 2 month FREE ($62.50 per month)</h6>
             <p>Gymso is free HTML template by Tooplate for your commercial website. Bootstrap v4.2.1 Layout. Feel free to use it.</p>
             <a href="#">Become a member today</a>
         </div>
-        <div class="two">
+        <div class="two" data-aos="fade-up">
             <h3>Working hours</h3>
             <br>
             <h5>Sunday : Closed</h5>
@@ -55,17 +56,17 @@
         </div>
     </div>
 
-    <div class="trainer">
+    <div class="trainer" id="about">
         <div class="about">
-            <h2>Hello, we are Gymso</h2>
-            <p>
+            <h2 data-aos="fade-up">Hello, we are Gymso</h2>
+            <p data-aos="fade-up">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ratione, id quod cupiditate autem vel nemo dolore iusto porro possimus quo delectus quos dolores facere, sit accusantium, illum dicta perferendis.
                 <br>
                 <br>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo non, ullam deleniti fugit commodi laudantium?
             </p>
         </div>
-        <div class="people">
+        <div class="people" data-aos="fade-up">
             <div class="team1">
                 <div class="img">
                     <img src="images/team1.jpg">
@@ -100,11 +101,11 @@
         </div>
     </div>
 
-    <div class="class">
-        <p class="paragraph">Get A Perfect Body</p>
-        <h2 class="h2">Our Training Classes</h2>
+    <div class="class" id="classes">
+        <p class="paragraph" data-aos="fade-up">Get A Perfect Body</p>
+        <h2 class="h2" data-aos="fade-up">Our Training Classes</h2>
         <div class="classMenu">
-            <div class="team1">
+            <div class="team1" data-aos="fade-up">
                 <div class="img">
                     <img src="images/class1.jpg">
                 </div>
@@ -124,7 +125,7 @@
                 </div>
             </div>
 
-            <div class="team1">
+            <div class="team1" data-aos="fade-up">
                 <div class="img">
                     <img src="images/class2.jpg">
                 </div>
@@ -144,7 +145,7 @@
                 </div>
             </div>
 
-            <div class="team1">
+            <div class="team1" data-aos="fade-up">
                 <div class="img">
                     <img src="images/class3.jpg">
                 </div>
@@ -166,17 +167,17 @@
         </div>
     </div>
 
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="form">
-            <h2>Feel free to ask anything</h2>
-            <div class="submit">
+            <h2 data-aos="fade-up">Feel free to ask anything</h2>
+            <div class="submit" data-aos="fade-up">
                 <input type="text" name="" placeholder="Name">
                 <input type="email" name="" placeholder="Email">
                 <textarea placeholder="Message"></textarea>
                 <a href="#">Sent Message</a>
             </div>
         </div>
-        <div class="map">
+        <div class="map" data-aos="fade-up">
             <h2>Where you can find us</h2>
             <p><i class="fa-solid fa-location-dot"></i>120-240 Rio de Janeiro - State of Rio de Janeiro, Brazil</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830921454!2d-74.11976369744556!3d40.69766374856529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z576O5ZyL57SQ57SE!5e0!3m2!1szh-TW!2stw!4v1661500147199!5m2!1szh-TW!2stw" width="1290" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -190,6 +191,13 @@
     
     
     <script src="https://kit.fontawesome.com/5ed6520c8d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 1000,
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
